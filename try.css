@@ -1,3 +1,31 @@
-[class$="ph"] {
-    color: blue;
+ul{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    list-style-position: inside ;
+}
+li{
+    margin: auto ;
+    padding-top: 100px;
+    list-style: none;
+
+}
+aside{
+    border: 10px solid red;
+    width: 15%;
+    height: 100VH;
+}
+.main{
+    height: 100VH;
+    width: 96VW;
+    overflow: auto;
+    border: 10px ridge black;
+    display: flex;
+}
+.me{
+    height: 100VH;
+    width: 96VW;
+    overflow: auto;
+    border: 10px ridge blue;
 }
