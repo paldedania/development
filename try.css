@@ -18,14 +18,14 @@ aside{
 }
 .main{
     height: 100VH;
-    width: 96VW;
+    width: 100VW;
     overflow: auto;
     border: 10px ridge black;
     display: flex;
 }
 .me{
     height: 100VH;
-    width: 96VW;
+    width: 100VW;
     overflow: auto;
     border: 10px ridge blue;
 }
