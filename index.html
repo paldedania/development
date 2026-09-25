@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A minimal travel landing page featuring Cappadocia, Santorini, and Bali.">
+  <title>Travel. | Must-see places</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="travel.css">
 </head>
 <body>
-<p title="it is the  of info" class="Paragraph">Paragraph with title</p>
-<p>No title</p>
+  <main class="page-shell">
+    <section class="travel-card" aria-labelledby="page-title">
+      <header class="topbar">
+        <a class="brand" href="#">travel<span>.</span></a>
+
+        <p class="collection-label">Three places worth the trip</p>
+
+        <nav aria-label="Main navigation">
+          <a href="#destinations">Places</a>
+          <a href="#about">About</a>
+        </nav>
+      </header>
+
+      <div class="hero" id="destinations">
+        <div class="intro" id="about">
+          <p class="eyebrow">A short travel list</p>
+          <h1 id="page-title">Must-see<br>places</h1>
+          <p class="intro-copy">
+            Three memorable landscapes for your next slow, sunny escape.
+          </p>
+          <a class="explore-button" href="#place-list">Explore places</a>
+        </div>
+
+        <div class="places" id="place-list">
+          <article class="place place-cappadocia">
+            <img
+              src="https://unsplash.com/photos/eOcyhe5-9sQ/download?force=true&w=900"
+              alt="Hot-air balloons floating above Cappadocia"
+            >
+            <div class="place-caption">
+              <h2>Cappadocia</h2>
+              <p>Turkey</p>
+            </div>
+          </article>
+
+          <article class="place place-santorini">
+            <img
+              src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=900&q=85"
+              alt="White hillside buildings beside the sea in Santorini"
+            >
+            <div class="place-caption">
+              <h2>Santorini</h2>
+              <p>Greece</p>
+            </div>
+          </article>
+
+          <article class="place place-bali">
+            <img
+              src="https://unsplash.com/photos/exFdOWkYBQw/download?force=true&w=900"
+              alt="A rocky tropical coastline in Bali"
+            >
+            <div class="place-caption">
+              <h2>Bali</h2>
+              <p>Indonesia</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <footer class="card-footer">
+        <p>Selected destinations</p>
+        <p class="page-count"><strong>01</strong> / 03</p>
+        <a href="#page-title" aria-label="Back to the beginning">&#8593;</a>
+      </footer>
+    </section>
+  </main>
+  <a href="try.html">Go to next page</a>
 </body>
 </html>
